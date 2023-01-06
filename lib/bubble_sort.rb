@@ -3,7 +3,7 @@ def bubble_sort(nums)
 
   while sort_again == true
     sort_again = false
-    nums.each_with_index do |_n, i|
+    nums.each_with_index do |_, i|
       next unless nums[i + 1] && nums[i] > nums[i + 1]
 
       temp = nums[i]
